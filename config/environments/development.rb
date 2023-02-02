@@ -71,8 +71,8 @@ Rails.application.configure do
   config.hosts.clear
 
   # Hotwire::Livereload
-  config.hotwire_livereload.force_reload_paths << Rails.root.join("app/assets/stylesheets")
-  config.hotwire_livereload.force_reload_paths << Rails.root.join("app/javascript")
+  # config.hotwire_livereload.force_reload_paths << Rails.root.join("app/assets/stylesheets")
+  # config.hotwire_livereload.force_reload_paths << Rails.root.join("app/javascript")
 
   # App config
   config.force_iframe = !(ENV["DISABLE_IFRAME"] == "1")
